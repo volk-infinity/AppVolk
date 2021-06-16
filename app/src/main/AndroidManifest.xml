@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appvolk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppVolk">
+        <activity
+            android:name=".ConsultaAtividadesActivity"
+            android:label="Consultar Atividades"/>
+        <activity
+            android:name=".ConsultaClientesActivity"
+            android:label="Consultar Clientes" />
+        <activity
+            android:name=".ConsultaSocioActivity"
+            android:label="Consultar Socios" />
+        <activity
+            android:name=".CadastroAtividadesActivity"
+            android:label="Cadastrar Atividades" />
+        <activity
+            android:name=".CadastroClienteActivity"
+            android:label="Cadastrar Clientes" />
+        <activity
+            android:name=".CadastroSocioActivity"
+            android:label="Cadastrar Socios" />
+        <activity
+            android:name=".SobreActivity"
+            android:label="Sobre" />
+        <activity
+            android:name=".MapaActivity"
+            android:label="Mapa" />
+        <activity
+            android:name=".ContatoActivity"
+            android:label="Contato" />
+        <activity
+            android:name=".ConsultarActivity"
+            android:label="Consulta" />
+        <activity
+            android:name=".CadastrarActivity"
+            android:label="Cadastro" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="Menu" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
