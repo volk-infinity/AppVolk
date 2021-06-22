@@ -38,7 +38,10 @@
                 android:hint="Digite o usuario"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/editTextSenha"
@@ -50,7 +53,10 @@
                 android:hint="Digite a senha"
                 android:inputType="textPassword"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"

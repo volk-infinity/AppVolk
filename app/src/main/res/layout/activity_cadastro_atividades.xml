@@ -31,7 +31,10 @@
                 android:hint="Data Inicio"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="match_parent"
@@ -48,7 +51,10 @@
                 android:hint="Data Termino"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="match_parent"
@@ -65,7 +71,10 @@
                 android:hint="Consultor"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="match_parent"
@@ -82,7 +91,10 @@
                 android:hint="Cliente"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="match_parent"
@@ -99,7 +111,10 @@
                 android:hint="Atividade"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="match_parent"
@@ -124,7 +139,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/textVoltar3"
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
                 android:layout_marginLeft="30dp"
@@ -132,7 +147,7 @@
                 android:text="Voltar"
                 android:textAlignment="center"
                 android:textColor="@color/color_white"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
     </LinearLayout>

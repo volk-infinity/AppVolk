@@ -40,7 +40,9 @@
                     android:layout_marginTop="10dp"
                     android:fontFamily="sans-serif-black"
                     android:text="Socio"
-                    android:textSize="20sp" />
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/imgSocio"
@@ -72,7 +74,9 @@
                     android:layout_marginTop="10dp"
                     android:fontFamily="sans-serif-black"
                     android:text="Clientes"
-                    android:textSize="20sp" />
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/imgClientes"
@@ -114,7 +118,9 @@
                     android:layout_marginTop="10dp"
                     android:fontFamily="sans-serif-black"
                     android:text="Atividades"
-                    android:textSize="20sp" />
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/imgAtividades"

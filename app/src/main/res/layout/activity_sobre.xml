@@ -26,10 +26,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                android:background="#CBFFFFFF"
-                android:backgroundTint="@color/black_overlay"
+                android:background="@color/black_overlay"
+                android:backgroundTint="@color/color_black"
                 android:hapticFeedbackEnabled="false"
-                app:cardBackgroundColor="#FDFDFD">
+                app:cardBackgroundColor="@color/black_overlay">
 
                 <TextView
                     android:id="@+id/textView18"
@@ -121,7 +121,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/textVoltar4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
@@ -129,7 +129,7 @@
                     android:text="Voltar"
                     android:textAlignment="center"
                     android:textColor="@color/color_white"
-                    android:textSize="20sp" />
+                    android:textSize="22sp" />
 
             </LinearLayout>
         </LinearLayout>
