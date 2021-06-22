@@ -7,4 +7,198 @@
     android:background="@mipmap/ic_fundo_foreground"
     tools:context=".ContatoActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#CBFFFFFF"
+                android:backgroundTint="@color/black_overlay"
+                android:hapticFeedbackEnabled="false"
+                app:cardBackgroundColor="#FDFDFD">
+
+
+                <ImageView
+                    android:id="@+id/imgFace"
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:textAlignment="center"
+                    app:srcCompat="@drawable/facebook" />
+
+                <TextView
+                    android:id="@+id/textFacebook"
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="80dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Volk Infinity"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/colorPrimaryDark"
+                android:backgroundTint="@color/black_overlay">
+
+
+                <ImageView
+                    android:id="@+id/imgInsta"
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/instagram" />
+
+                <TextView
+                    android:id="@+id/textInstagram"
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="80dp"
+                    android:layout_marginTop="12dp"
+                    android:text="volk Infinity"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/colorPrimaryDark"
+                android:backgroundTint="@color/black_overlay">
+
+
+                <ImageView
+                    android:id="@+id/imgLinkedin"
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/linkedin" />
+
+                <TextView
+                    android:id="@+id/textLinkedin"
+                    android:layout_width="201dp"
+                    android:layout_height="38dp"
+                    android:layout_marginHorizontal="95dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Volk Infinity Prime"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextSite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Site: www.volkprime.com.br"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_white"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Email: volk.infinity@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_white"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextTelefone"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Telefone: (11) 4068-3395"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_white"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Voltar"
+                android:textAlignment="center"
+                android:textColor="@color/color_white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
