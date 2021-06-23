@@ -73,6 +73,7 @@
                     android:background="@drawable/buttons_app"
                     android:text="Enviar"
                     android:textColor="#FFFFFF"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <!--<Button
@@ -87,7 +88,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textNãoPossuiConta"
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
                 android:text="Não possui conta? Cadastre-se"

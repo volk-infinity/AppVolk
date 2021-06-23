@@ -18,7 +18,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                android:layout_height="90dp" />
 
             <EditText
                 android:id="@+id/editTextDataInicioAtv"
@@ -103,7 +103,7 @@
             <EditText
                 android:id="@+id/editTextAtividade"
                 android:layout_width="match_parent"
-                android:layout_height="114dp"
+                android:layout_height="142dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:background="@color/color_white"
@@ -118,11 +118,11 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="30dp" />
+                android:layout_height="24dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="88dp"
+                android:layout_height="77dp"
                 android:orientation="horizontal">
 
                 <Button
