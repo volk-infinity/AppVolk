@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -16,6 +17,7 @@ ImageView imgSocio,imgClientes,imgAtividades;
         imgSocio = findViewById(R.id.imgSocio);
         imgClientes = findViewById(R.id.imgClientes);
         imgAtividades = findViewById(R.id.imgAtividades);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         imgSocio();
         imgClientes();
@@ -53,5 +55,17 @@ ImageView imgSocio,imgClientes,imgAtividades;
             }
         });
     }
+
+    public boolean onOptionsItemSelected(MenuItem menuItem){
+
+        switch (menuItem.getItemId()){
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(menuItem);
+    }
+
+
 
 }
