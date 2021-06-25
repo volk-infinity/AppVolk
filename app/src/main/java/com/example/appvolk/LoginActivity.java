@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button buttonEnviar;
+    Button buttonEntrar;
     TextView textNãoPossuiConta;
 
     @Override
@@ -18,16 +18,16 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        buttonEnviar = findViewById(R.id.buttonEnviar);
+        buttonEntrar = findViewById(R.id.buttonEntrar);
         textNãoPossuiConta = findViewById(R.id.textNãoPossuiConta);
 
-        buttonEnviar();
+        buttonEntrar();
         textNãoPossuiConta();
 
     }
 
-        private void buttonEnviar(){
-            buttonEnviar.setOnClickListener(new View.OnClickListener() {
+        private void buttonEntrar(){
+            buttonEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent telaMenu = new Intent(getApplicationContext(),MenuActivity.class);

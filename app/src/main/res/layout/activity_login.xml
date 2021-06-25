@@ -64,14 +64,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/buttonEnviar"
+                    android:id="@+id/buttonEntrar"
                     android:layout_width="356dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
                     android:layout_marginRight="25dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttons_app"
-                    android:text="Enviar"
+                    android:text="Entrar"
                     android:textColor="#FFFFFF"
                     android:textSize="14sp"
                     android:textStyle="bold" />

@@ -1,14 +1,17 @@
 package com.example.appvolk;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class MenuActivity extends AppCompatActivity {
-ImageView imgCadastro,imgContato,imgConsulta,imgMapa,imgSobre;
+
+     ImageView imgCadastro,imgContato,imgConsulta,imgMapa,imgSobre;
+     Button buttonSair;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,12 +21,14 @@ ImageView imgCadastro,imgContato,imgConsulta,imgMapa,imgSobre;
         imgConsulta = findViewById(R.id.imgConsulta);
         imgMapa = findViewById(R.id.imgMapa);
         imgSobre = findViewById(R.id.imgSobre);
+        buttonSair = findViewById(R.id.buttonSair);
 
         imgCadastro();
         imgContato();
         imgConsulta();
         imgMapa();
         imgSobre();
+        buttonSair();
 
     }
 
@@ -77,4 +82,13 @@ ImageView imgCadastro,imgContato,imgConsulta,imgMapa,imgSobre;
         });
     }
 
+    private void buttonSair(){
+        buttonSair.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLogin = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(telaLogin);
+            }
+        });
+    }
 }

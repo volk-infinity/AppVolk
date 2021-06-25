@@ -148,7 +148,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="94dp"
+                android:layout_height="124dp"
                 android:orientation="horizontal">
 
                 <Button
@@ -163,17 +163,6 @@
                     android:textColor="#FFFFFF"
                     android:textStyle="bold" />
             </LinearLayout>
-
-            <TextView
-                android:id="@+id/textVoltar1"
-                android:layout_width="match_parent"
-                android:layout_height="31dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:text="Voltar"
-                android:textAlignment="center"
-                android:textColor="@color/color_white"
-                android:textSize="22sp" />
 
         </LinearLayout>
     </LinearLayout>
