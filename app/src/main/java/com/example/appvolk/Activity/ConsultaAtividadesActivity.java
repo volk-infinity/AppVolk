@@ -1,37 +1,33 @@
-package com.example.appvolk;
+package com.example.appvolk.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.AdapterView;
-import android.widget.Spinner;
 import android.widget.TextView;
 
-public class ConsultaSocioActivity extends AppCompatActivity {
+import com.example.appvolk.R;
 
-    TextView textVoltar4;
+public class ConsultaAtividadesActivity extends AppCompatActivity {
+
+    TextView textVoltar6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_consulta_socio);
+        setContentView(R.layout.activity_consulta_atividades);
 
-        textVoltar4 = findViewById(R.id.textVoltar4);
+        textVoltar6 = findViewById(R.id.textVoltar6);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        textVoltar4();
+        textVoltar6();
 
     }
 
-
-    private void textVoltar4(){
-        textVoltar4.setOnClickListener(new View.OnClickListener() {
+    private void textVoltar6(){
+        textVoltar6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),MenuActivity.class);

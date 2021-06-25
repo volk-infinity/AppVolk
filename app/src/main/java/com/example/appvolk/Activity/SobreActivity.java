@@ -1,4 +1,4 @@
-package com.example.appvolk;
+package com.example.appvolk.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,24 +8,26 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-public class MapaActivity extends AppCompatActivity {
+import com.example.appvolk.R;
 
-    TextView textVoltar8;
+public class SobreActivity extends AppCompatActivity {
+
+    TextView textVoltar9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mapa);
+        setContentView(R.layout.activity_sobre);
 
-        textVoltar8 = findViewById(R.id.textVoltar8);
+        textVoltar9 = findViewById(R.id.textVoltar9);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        textVoltar8();
+        textVoltar9();
 
     }
 
-    private void textVoltar8(){
-        textVoltar8.setOnClickListener(new View.OnClickListener() {
+    private void textVoltar9(){
+        textVoltar9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),MenuActivity.class);

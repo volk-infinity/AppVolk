@@ -1,4 +1,4 @@
-package com.example.appvolk;
+package com.example.appvolk.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,24 +8,27 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-public class CadastroClienteActivity extends AppCompatActivity {
+import com.example.appvolk.R;
 
-    TextView textVoltar2;
+public class ConsultaSocioActivity extends AppCompatActivity {
+
+    TextView textVoltar4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro_cliente);
+        setContentView(R.layout.activity_consulta_socio);
 
-        textVoltar2 = findViewById(R.id.textVoltar2);
+        textVoltar4 = findViewById(R.id.textVoltar4);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        textVoltar2();
+        textVoltar4();
 
     }
 
-    private void textVoltar2(){
-        textVoltar2.setOnClickListener(new View.OnClickListener() {
+
+    private void textVoltar4(){
+        textVoltar4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
@@ -43,5 +46,4 @@ public class CadastroClienteActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(menuItem);
     }
-
 }
