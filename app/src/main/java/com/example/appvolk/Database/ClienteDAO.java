@@ -20,12 +20,11 @@ public class ClienteDAO extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String query = "CREATE TABLE " + TABLE_CLIENTE + " (" +
-                "CPF VARCHAR(20) PRIMARY KEY," +
-                "NOME VARCHAR(50)," +
-                "EMAIL VARCHAR(80)," +
-                "TELEFONE VARCHAR(15)" +
+                "CPF_CLI VARCHAR(20) PRIMARY KEY," +
+                "NOME_CLI VARCHAR(50)," +
+                "EMAIL_CLI VARCHAR(80)," +
+                "TELEFONE_CLI VARCHAR(15)" +
                 ");";
-
         db.execSQL(query);
     }
 
@@ -37,10 +36,10 @@ public class ClienteDAO extends SQLiteOpenHelper {
     public Long insert(ClienteDTO clienteDTO) {
         ContentValues values = new ContentValues();
 
-        values.put("CPF", clienteDTO.getCPF());
-        values.put("NOME", clienteDTO.getNome());
-        values.put("EMAIL", clienteDTO.getEmail());
-        values.put("TELEFONE", clienteDTO.getTelefone());
+        values.put("CPF_CLI", clienteDTO.getCPF());
+        values.put("NOME_CLI", clienteDTO.getNome());
+        values.put("EMAIL_CLI", clienteDTO.getEmail());
+        values.put("TELEFONE_CLI", clienteDTO.getTelefone());
 
         long numLines = getWritableDatabase().insert(TABLE_CLIENTE, null, values);
         return numLines;

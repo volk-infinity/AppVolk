@@ -28,7 +28,7 @@
                 android:layout_marginRight="30dp"
                 android:background="@color/color_white"
                 android:ems="10"
-                android:hint="Segmento"
+                android:hint="CPF"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/black"

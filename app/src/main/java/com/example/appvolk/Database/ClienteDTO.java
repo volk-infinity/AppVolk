@@ -24,7 +24,7 @@ public class ClienteDTO {
     }
 
     public String getNome() {
-        return this.nome;
+        return nome;
     }
 
     public void setNome(String name) {
@@ -32,7 +32,7 @@ public class ClienteDTO {
     }
 
     public String getEmail() {
-        return this.email;
+        return email;
     }
 
     public void setEmail(String email) {
@@ -40,7 +40,7 @@ public class ClienteDTO {
     }
 
     public String getTelefone() {
-        return this.telefone;
+        return telefone;
     }
 
     public void setTelefone(String telefone) {
