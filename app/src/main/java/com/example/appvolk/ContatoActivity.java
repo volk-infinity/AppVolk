@@ -10,22 +10,22 @@ import android.widget.TextView;
 
 public class ContatoActivity extends AppCompatActivity {
 
-    TextView textVoltar4;
+    TextView textVoltar7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contato);
 
-        textVoltar4 = findViewById(R.id.textVoltar4);
+        textVoltar7 = findViewById(R.id.textVoltar7);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        textVoltar4();
+        textVoltar7();
 
     }
 
-    private void textVoltar4(){
-        textVoltar4.setOnClickListener(new View.OnClickListener() {
+    private void textVoltar7(){
+        textVoltar7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),MenuActivity.class);

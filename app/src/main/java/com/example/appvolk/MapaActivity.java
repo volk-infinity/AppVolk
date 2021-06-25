@@ -10,22 +10,22 @@ import android.widget.TextView;
 
 public class MapaActivity extends AppCompatActivity {
 
-    TextView textVoltar5;
+    TextView textVoltar8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapa);
 
-        textVoltar5 = findViewById(R.id.textVoltar5);
+        textVoltar8 = findViewById(R.id.textVoltar8);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        textVoltar5();
+        textVoltar8();
 
     }
 
-    private void textVoltar5(){
-        textVoltar5.setOnClickListener(new View.OnClickListener() {
+    private void textVoltar8(){
+        textVoltar8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),MenuActivity.class);

@@ -10,22 +10,22 @@ import android.widget.TextView;
 
 public class SobreActivity extends AppCompatActivity {
 
-    TextView textVoltar6;
+    TextView textVoltar9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sobre);
 
-        textVoltar6 = findViewById(R.id.textVoltar6);
+        textVoltar9 = findViewById(R.id.textVoltar9);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        textVoltar6();
+        textVoltar9();
 
     }
 
-    private void textVoltar6(){
-        textVoltar6.setOnClickListener(new View.OnClickListener() {
+    private void textVoltar9(){
+        textVoltar9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
@@ -43,6 +43,5 @@ public class SobreActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(menuItem);
     }
-
 
 }
