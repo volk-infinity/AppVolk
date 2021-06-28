@@ -21,14 +21,14 @@
                 android:layout_height="100dp" />
 
             <EditText
-                android:id="@+id/editTextSegmentoCli"
+                android:id="@+id/editTextCpfCli"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:background="@color/color_white"
                 android:ems="10"
-                android:hint="Segmento"
+                android:hint="CPF"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/black"
