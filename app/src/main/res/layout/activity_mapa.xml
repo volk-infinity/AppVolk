@@ -45,11 +45,11 @@
 
                 <TextView
                     android:id="@+id/textView27"
-                    android:layout_width="wrap_content"
+                    android:layout_width="320dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="60dp"
-                    android:text="Avenida Marquês de São Vicente, 576 - Barra Funda - Cep: 01139-000 "
+                    android:text="Av. Marquês de São Vicente, 576 - Barra Funda - SP - Cep: 01139-000 "
                     android:textAlignment="center"
                     android:textColor="@color/color_white"
                     android:textSize="18sp"
