@@ -1,9 +1,11 @@
-package com.example.appvolk;
+package com.example.appvolk.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.example.appvolk.R;
 
 import java.util.Timer;
 import java.util.TimerTask;

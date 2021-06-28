@@ -1,4 +1,4 @@
-package com.example.appvolk;
+package com.example.appvolk.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,24 +8,26 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-public class ContatoActivity extends AppCompatActivity {
+import com.example.appvolk.R;
 
-    TextView textVoltar7;
+public class ConsultaClientesActivity extends AppCompatActivity {
+
+    TextView textVoltar5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contato);
+        setContentView(R.layout.activity_consulta_clientes);
 
-        textVoltar7 = findViewById(R.id.textVoltar7);
+        textVoltar5 = findViewById(R.id.textVoltar5);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        textVoltar7();
+        textVoltar5();
 
     }
 
-    private void textVoltar7(){
-        textVoltar7.setOnClickListener(new View.OnClickListener() {
+    private void textVoltar5(){
+        textVoltar5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
@@ -43,6 +45,4 @@ public class ContatoActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(menuItem);
     }
-
-
 }

@@ -1,4 +1,4 @@
-package com.example.appvolk;
+package com.example.appvolk.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.appvolk.R;
 
 public class MenuActivity extends AppCompatActivity {
 

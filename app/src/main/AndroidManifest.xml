@@ -10,45 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppVolk">
         <activity
-            android:name=".ConsultaAtividadesActivity"
+            android:name=".Activity.ConsultaAtividadesActivity"
             android:label="Consultar Atividades"/>
         <activity
-            android:name=".ConsultaClientesActivity"
+            android:name=".Activity.ConsultaClientesActivity"
             android:label="Consultar Clientes" />
         <activity
-            android:name=".ConsultaSocioActivity"
+            android:name=".Activity.ConsultaSocioActivity"
             android:label="Consultar Socios" />
         <activity
-            android:name=".CadastroAtividadesActivity"
+            android:name=".Activity.CadastroAtividadesActivity"
             android:label="Cadastrar Atividades" />
         <activity
-            android:name=".CadastroClienteActivity"
+            android:name=".Activity.CadastroClienteActivity"
             android:label="Cadastrar Clientes" />
         <activity
-            android:name=".CadastroSocioActivity"
+            android:name=".Activity.CadastroSocioActivity"
             android:label="Cadastrar Socios" />
         <activity
-            android:name=".SobreActivity"
+            android:name=".Activity.SobreActivity"
             android:label="Sobre" />
         <activity
-            android:name=".MapaActivity"
+            android:name=".Activity.MapaActivity"
             android:label="Mapa" />
         <activity
-            android:name=".ContatoActivity"
+            android:name=".Activity.ContatoActivity"
             android:label="Contato" />
         <activity
-            android:name=".ConsultarActivity"
+            android:name=".Activity.ConsultarActivity"
             android:label="Consulta" />
         <activity
-            android:name=".CadastrarActivity"
+            android:name=".Activity.CadastrarActivity"
             android:label="Cadastro" />
         <activity
-            android:name=".MenuActivity"
+            android:name=".Activity.MenuActivity"
             android:label="Menu" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".Activity.LoginActivity"
             android:label="Login" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".Activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

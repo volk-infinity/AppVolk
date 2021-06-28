@@ -1,4 +1,4 @@
-package com.example.appvolk;
+package com.example.appvolk.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.appvolk.R;
 
 public class ConsultarActivity extends AppCompatActivity {
     ImageView imgSocio,imgClientes,imgAtividades;
